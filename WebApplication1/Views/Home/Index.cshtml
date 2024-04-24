@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <form action="/" method="post">
+        <input type="text" name="firstName" value="" placeholder="Enter your name" class="name"/>
+        <a href="../Name/Name"><input type="submit" value="Submit" class="button"/></a>
+        <hr />
+        @ViewBag.firstName
+    </form>
+</div>
