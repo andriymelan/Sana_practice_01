@@ -26,7 +26,7 @@ namespace WebApplication1.Controllers
         [HttpPost]
         public IActionResult Index(string firstName)
         {
-            ViewBag.firstName = string.Format($"{firstName} is gay");
+            ViewBag.firstName = string.Format($"Name: {firstName}");
             return View();
         }
 
